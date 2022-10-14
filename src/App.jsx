@@ -1,3 +1,6 @@
+import {
+    CounterCustomHook
+} from './00-customHooks'
 import { CounterApp } from './01-useState'
 function App() {
 
@@ -10,6 +13,8 @@ function App() {
 
       <div className='d-flex flex-column-reverse gap-5'>
         <CounterApp />
+        <hr/>
+        <CounterCustomHook />
       </div>
 
     </div>
