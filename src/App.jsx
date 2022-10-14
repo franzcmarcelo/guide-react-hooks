@@ -1,4 +1,5 @@
 import {
+    FormCustomHook,
     CounterCustomHook
 } from './00-customHooks'
 import { CounterApp } from './01-useState'
@@ -18,6 +19,8 @@ function App() {
         <CounterCustomHook />
         <hr/>
         <SimpleForm />
+        <hr/>
+        <FormCustomHook />
       </div>
 
     </div>
