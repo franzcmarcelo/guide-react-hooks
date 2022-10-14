@@ -5,6 +5,8 @@ import {
 } from './00-customHooks'
 import { CounterApp } from './01-useState'
 import { SimpleForm } from './02-useEffect'
+import { FocusScreen } from './03-useRef'
+
 function App() {
 
   return (
@@ -24,6 +26,8 @@ function App() {
         <FormCustomHook />
         <hr/>
         <BreakingBad />
+        <hr/>
+        <FocusScreen />
       </div>
 
     </div>
