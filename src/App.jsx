@@ -2,6 +2,7 @@ import {
     CounterCustomHook
 } from './00-customHooks'
 import { CounterApp } from './01-useState'
+import { SimpleForm } from './02-useEffect'
 function App() {
 
   return (
@@ -15,6 +16,8 @@ function App() {
         <CounterApp />
         <hr/>
         <CounterCustomHook />
+        <hr/>
+        <SimpleForm />
       </div>
 
     </div>
