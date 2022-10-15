@@ -6,7 +6,7 @@ import {
 import { CounterApp } from './01-useState'
 import { SimpleForm } from './02-useEffect'
 import { FocusScreen } from './03-useRef'
-import { Memorize, MemoHook } from './05-memos'
+import { Memorize, MemoHook, CallbackHook } from './05-memos'
 
 function App() {
 
@@ -33,8 +33,9 @@ function App() {
         <Memorize />
         <hr/>
         <MemoHook />
+        <hr/>
+        <CallbackHook />
       </div>
-
     </div>
   )
 }
