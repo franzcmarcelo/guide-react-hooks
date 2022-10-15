@@ -2,7 +2,7 @@ import { memo } from 'react';
 
 const ShowIncrement = memo(({ increment }) => {
 
-  console.log('Component ShowIncrement render');
+  // console.log('Component ShowIncrement render');
 
   return (
     <>

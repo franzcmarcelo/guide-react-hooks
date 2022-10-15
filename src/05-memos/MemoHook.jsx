@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 
 const heavyStuff = (iterations) => {
   for (let i = 0; i < iterations; i++)
-    console.log('Heavy stuff iteration,', iterations);
+    // console.log('Heavy stuff iteration,', iterations);
   return `${iterations} iterations done`;
 }
 

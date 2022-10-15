@@ -5,9 +5,9 @@ const Message = ({username}) => {
   const [coords, setCoords] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    console.log('component mounted');
+    // console.log('component mounted');
     return () => {
-      console.log('component unmounted');
+      // console.log('component unmounted');
     }
   }, [])
 

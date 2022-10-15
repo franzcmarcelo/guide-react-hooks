@@ -18,7 +18,7 @@ const SimpleForm = () => {
   }
 
   useEffect(() => {
-    console.log('first render');
+    // console.log('first render');
   }, []);
 
   useEffect(() => {

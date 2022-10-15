@@ -16,11 +16,11 @@ const MemorizeChild = memo(({
   increment
 }) => {
 
-  console.log(
-    'Component MemorizeChild render',
-    factor,
-    increment
-  );
+  // console.log(
+  //   'Component MemorizeChild render',
+  //   factor,
+  //   increment
+  // );
 
   return (
     <button
