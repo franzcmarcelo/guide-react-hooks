@@ -6,6 +6,7 @@ import {
 import { CounterApp } from './01-useState'
 import { SimpleForm } from './02-useEffect'
 import { FocusScreen } from './03-useRef'
+import { Memorize, MemoHook } from './05-memos'
 
 function App() {
 
@@ -28,6 +29,10 @@ function App() {
         <BreakingBad />
         <hr/>
         <FocusScreen />
+        <hr/>
+        <Memorize />
+        <hr/>
+        <MemoHook />
       </div>
 
     </div>
