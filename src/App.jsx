@@ -1,12 +1,8 @@
-import {
-    BreakingBad,
-    FormCustomHook,
-    CounterCustomHook
-} from './00-customHooks'
+import { BreakingBad, FormCustomHook, CounterCustomHook } from './00-customHooks'
 import { CounterApp } from './01-useState'
 import { SimpleForm } from './02-useEffect'
 import { FocusScreen } from './03-useRef'
-import { Memorize, MemoHook, CallbackHook } from './05-memos'
+import { Memorize, MemoHook, CallbackHook, MemorizeFather } from './05-memos'
 
 function App() {
 
@@ -35,6 +31,8 @@ function App() {
         <MemoHook />
         <hr/>
         <CallbackHook />
+        <hr/>
+        <MemorizeFather />
       </div>
     </div>
   )
