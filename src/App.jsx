@@ -46,7 +46,11 @@ function App() {
         }
         <hr />
         <div>
-          <EnablerCheckbox enableOnlyTodoApp={enableOnlyTodoApp} setEnableOnlyTodoApp={setEnableOnlyTodoApp} />
+          <EnablerCheckbox
+            enable={enableOnlyTodoApp}
+            setEnable={setEnableOnlyTodoApp}
+            desc={'Enable only Todo App'}
+          />
           <TodoApp />
         </div>
       </div>
