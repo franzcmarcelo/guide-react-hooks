@@ -9,10 +9,12 @@ const FormCustomHook = () => {
   }
 
   const {
-    username, email, password,
+    formState,
     onInputChange,
     onResetForm
   } = useForm(initialForm);
+  
+  const { username, email, password } = formState;
 
   const onReset = () => {
     onResetForm();
