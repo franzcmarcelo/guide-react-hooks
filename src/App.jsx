@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { EnablerCheckbox } from '../components'
+import { EnablerCheckbox } from './components'
 import { BreakingBad, FormCustomHook, CounterCustomHook } from './00-customHooks'
 import { CounterApp } from './01-useState'
 import { SimpleForm } from './02-useEffect'

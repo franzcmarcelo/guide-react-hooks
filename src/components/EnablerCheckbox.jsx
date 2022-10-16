@@ -1,6 +1,4 @@
-import React from 'react'
-
-const EnablerCheckbos = ({enableOnlyTodoApp, setEnableOnlyTodoApp}) => {
+const EnablerCheckbox = ({enableOnlyTodoApp, setEnableOnlyTodoApp}) => {
   return (
     <div className="form-check form-switch mb-2">
     <input
@@ -17,4 +15,4 @@ const EnablerCheckbos = ({enableOnlyTodoApp, setEnableOnlyTodoApp}) => {
   )
 }
 
-export default EnablerCheckbos
+export default EnablerCheckbox;
