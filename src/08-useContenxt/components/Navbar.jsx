@@ -9,7 +9,7 @@ const NAV_LINKS = [
 
 const Navbar = () => {
   return (
-    <nav className='navbar navbar-expand-sm navbar-dark bg-dark my-4 rounded-3'>
+    <nav className='navbar navbar-expand-sm navbar-dark bg-dark mt-4 mb-5 rounded-3'>
       <div className='container-fluid'>
 
         <NavToggler />
