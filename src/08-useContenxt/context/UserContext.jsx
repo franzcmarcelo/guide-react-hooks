@@ -6,7 +6,9 @@ const UserContext = createContext();
 
 const UserProvider = (props) => {
 
-  const [ user, setUser ] = useState({});
+  const { user: userDefault } = props;
+
+  const [ user, setUser ] = useState(userDefault ?? {});
 
   const dataProvided = {
     user,
