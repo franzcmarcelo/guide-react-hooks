@@ -15,7 +15,7 @@ describe('Test in useCounter', () => {
   test('should return default values', () => {
     const {
       result: { current: { count } }
-    } = renderHook(() => useCounter());
+    } = renderHook(() => useCounter({}));
 
     expect(count).toBe(COUNT_DEFAULT_VALUE);
   });

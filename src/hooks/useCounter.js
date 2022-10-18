@@ -1,22 +1,21 @@
 import { useState } from 'react';
 
-const useCounter = (data = {
-  initialValue: 0,
-  factor: 1,
+const useCounter = ({
+  initialValue = 0,
+  factor = 1,
 }) => {
-  const { initialValue, factor } = data;
   const [count, setCount] = useState(initialValue);
 
-  const increment = (customFactor) => {
-    setCount(curVal => curVal + (customFactor ?? factor));
+  const increment = (e) => {
+    setCount(curVal => curVal + factor);
   };
 
-  const decrement = (customFactor) => {
-    if ((count - (customFactor ?? factor)) < 0) return;
-    setCount(curVal => curVal - (customFactor ?? factor));
+  const decrement = (e) => {
+    if ((count - factor) < 0) return;
+    setCount(curVal => curVal - factor);
   };
 
-  const reset = () => {
+  const reset = (e) => {
     setCount(initialValue);
   };
 
