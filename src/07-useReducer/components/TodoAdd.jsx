@@ -11,7 +11,7 @@ const initialForm = {
 
 const TodoAdd = memo(({ onAddTodo }) => {
 
-  console.log('TodoAdd Component Rendered');
+  // console.log('TodoAdd Component Rendered');
 
   const { formState, onInputChange, onResetForm } = useForm(initialForm);
 

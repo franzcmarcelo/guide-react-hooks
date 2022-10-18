@@ -2,7 +2,7 @@ import { memo } from 'react';
 
 const TodoItem = memo(({ todo, onDeleteTodo, onToggleTodo }) => {
 
-  console.log('TodoItem Component Rendered', todo.desc);
+  // console.log('TodoItem Component Rendered', todo.desc);
 
   const { id, desc, done } = todo;
 
