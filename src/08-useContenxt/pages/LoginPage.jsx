@@ -26,7 +26,7 @@ const LoginPage = () => {
       <h3>LoginPage</h3>
       <hr />
 
-      <form onSubmit={onSubmit}>
+      <form onSubmit={onSubmit} aria-label="form">
         <div className='mb-3'>
           <label htmlFor='username' className='form-label'>Username</label>
           <input
@@ -40,7 +40,7 @@ const LoginPage = () => {
           />
         </div>
         <div className='mb-3'>
-          <label htmlFor='email' className='form-label'>Password</label>
+          <label htmlFor='email' className='form-label'>Email</label>
           <input
             type='email'
             className='form-control'

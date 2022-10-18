@@ -59,7 +59,6 @@ describe('Test in <TodoApp />', () => {
 
     render(<TodoApp />);
 
-    screen.debug();
     const completedText = screen.getByText(`Completed: ${mockDataUseTodos.todosCompleted}`);
     const pendingText = screen.getByText(`Pending: ${mockDataUseTodos.todosPending}`);
     const todoListBtnsManagement = screen.getByTestId('todo-list-management');
