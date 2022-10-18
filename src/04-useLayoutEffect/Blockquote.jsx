@@ -21,7 +21,7 @@ const Blockquote = ({ author, quote, series }) => {
         <p ref={ quoteRef }>{ quote }</p>
       </blockquote>
       <figcaption className="blockquote-footer">
-        { author } at <cite title="series">{ series }</cite>
+        <p>{ author }</p> at <cite title="series">{ series }</cite>
       </figcaption>
       <code>{ JSON.stringify(boxSize) }</code>
     </>
